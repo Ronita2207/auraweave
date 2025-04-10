@@ -1,0 +1,10 @@
+fastapi==0.115.12
+uvicorn==0.34.0
+pandas==2.2.3
+pillow==11.1.0
+torch==2.6.0
+torchvision==0.17.0
+scikit-learn==1.6.1
+sentence-transformers==4.0.2
+faiss-cpu==1.10.0
+python-multipart==0.0.9  # For handling file uploads

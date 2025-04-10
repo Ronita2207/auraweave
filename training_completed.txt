@@ -1,0 +1,6 @@
+=== Training Summary ===
+Training completed successfully in 4319.98 seconds
+Processed 14329 images out of 14330 total
+Model saved to C:\Users\ronit\Downloads\auraweave\..\models\aesthetic_classifier.pkl
+Model accuracy: 0.0099
+Categories: ['109F', '20Dresses', '250 DESIGNS', '3PIN', '513', '6Y COLLECTIVE', '7TH FAB', '98 Degree North', '9teenAGAIN', 'A Little Fable']...
