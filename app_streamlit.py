@@ -11,7 +11,8 @@ from io import BytesIO
 import os
 
 # Constants
-API_ENDPOINT = "http://127.0.0.1:8000"
+# Get API endpoint from environment variable or use render deployment as default
+API_ENDPOINT = os.environ.get("API_ENDPOINT", "https://auraweave-api.onrender.com")
 AESTHETIC_CATEGORIES = [
     "Minimalist", "Grunge", "Office Siren", "Bohemian", "Streetwear",
     "Cottagecore", "Y2K", "Dark Luxury", "Athleisure", "Club Siren",
