@@ -1,13 +1,14 @@
-fastapi==0.115.12
-uvicorn==0.34.0
-pandas==2.2.3
-pillow==11.1.0
-torch==2.6.0
-torchvision==0.21.0
-scikit-learn==1.6.1
-sentence-transformers==4.0.2
-faiss-cpu==1.7.2 --find-links https://download.pytorch.org/whl/torch_stable.html
-python-multipart==0.0.9
-streamlit>=1.31.0
-matplotlib>=3.7.0
-plotly>=5.13.0
+fastapi>=0.95.0
+uvicorn>=0.20.0
+pandas>=2.0.0
+pillow>=9.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+scikit-learn>=1.0.0
+sentence-transformers>=4.0.0
+# Use a simpler version of faiss-cpu
+faiss-cpu>=1.7.0,<1.8.0
+python-multipart>=0.0.5
+streamlit>=1.20.0
+matplotlib>=3.5.0
+plotly>=5.10.0
