@@ -285,3 +285,21 @@ elif page == "Explore Aesthetics":
 # Footer
 st.markdown("---")
 st.markdown("Made with ❤️ by AuraWeave")
+
+# This section ensures Streamlit binds to the correct port in Render
+if __name__ == "__main__":
+    import os
+    import sys
+    import streamlit.web.bootstrap as bootstrap
+    
+    # Get the port from environment variable or use default
+    port = int(os.environ.get("PORT", 8501))
+    
+    # Set Streamlit configuration for server
+    os.environ["STREAMLIT_SERVER_PORT"] = str(port)
+    os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
+    os.environ["STREAMLIT_SERVER_ADDRESS"] = "0.0.0.0"
+    
+    # Run Streamlit
+    sys.argv = ["streamlit", "run", __file__, "--server.port", str(port), "--server.address", "0.0.0.0"]
+    bootstrap.run()
