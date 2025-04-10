@@ -19,7 +19,4 @@ services:
       - key: PYTHON_VERSION
         value: 3.9.0  
       - key: API_ENDPOINT
-        fromService:
-          type: web
-          name: auraweave-api
-          property: host
+        value: https://auraweave-api.onrender.com

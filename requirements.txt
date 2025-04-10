@@ -6,8 +6,8 @@ torch==2.6.0
 torchvision==0.21.0
 scikit-learn==1.6.1
 sentence-transformers==4.0.2
-faiss-cpu==1.10.0
-python-multipart==0.0.9  # For handling file uploads
+faiss-cpu==1.10.0 --extra-index-url https://download.pytorch.org/whl/cpu
+python-multipart==0.0.9
 streamlit>=1.31.0
 matplotlib>=3.7.0
 plotly>=5.13.0
