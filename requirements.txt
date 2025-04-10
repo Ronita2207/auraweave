@@ -8,3 +8,4 @@ scikit-learn==1.6.1
 sentence-transformers==4.0.2
 faiss-cpu==1.10.0
 python-multipart==0.0.9  # For handling file uploads
+streamlit>=1.31.0  # Add this line
