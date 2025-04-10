@@ -72,11 +72,41 @@ auraweave/
 - Dark Academia
 - Regencycore
 
+## 📥 Dataset Setup
+
+### Required Data Structure
+```
+data/
+├── fashion_dataset.csv
+└── Images/
+    └── Images/  # Contains product images
+```
+
+### Option 1: Download Dataset
+1. Download the fashion dataset from [dataset source]
+2. Place the files in the `data` directory as shown above
+
+### Option 2: Use Sample Data
+For testing, we provide a small sample dataset:
+1. Download sample_data.zip from [Releases](https://github.com/Ronita2207/auraweave/releases)
+2. Extract to the `data` directory
+
+### Option 3: Use Your Own Data
+Prepare your data following this format:
+```csv
+name,price,colour,brand,img,description
+Product1,99.99,Black,BrandA,path/to/image1.jpg,Description1
+Product2,149.99,White,BrandB,path/to/image2.jpg,Description2
+```
+
 ## 📸 Screenshots
-[Add screenshots of your application here]
+### Interface Screenshot
+![AuraWeave Interface](image-1.png)
 
 ## 🤝 Contributing
 Contributions welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+[def]: image.png
